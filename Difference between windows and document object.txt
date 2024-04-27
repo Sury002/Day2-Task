@@ -1,0 +1,25 @@
+Window Object:
+
+The Window object represents the browser window or tab in which the web page is loaded. It serves as the global object for JavaScript code running in that window. Here are some key aspects of the Window object:
+
+Global Scope: All JavaScript code executed within a browser window operates within the scope of the Window object. This means that variables and functions declared globally are attached to the Window object.
+
+Browser Interactions: The Window object facilitates interactions between the web page and the browser environment. It provides methods for controlling the browser, such as opening and closing windows, navigating to different URLs, and displaying dialog boxes.
+
+Timers and Events: It manages timers (via setTimeout() and setInterval()) and event listeners for various browser events like resize, scroll, and load.
+
+Properties: The Window object contains properties that give information about the window, such as its dimensions, location, and navigation history.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Document Object:
+
+The document object represents the HTML document loaded in the window. It serves as an interface to the web page's content and structure. Here's what you need to know about the Document object:
+
+DOM Tree Representation: The Document object provides access to the DOM tree, which represents the hierarchical structure of HTML elements on the web page. Developers can traverse this tree, access elements, modify their content, or add new elements dynamically.
+
+Content Manipulation: Through the Document object, developers can manipulate the content of the web page by accessing and modifying elements, attributes, and text within the document.
+
+Events and Styles: It allows developers to attach event listeners to elements for handling user interactions and to modify CSS styles dynamically to change the appearance of elements.
+
+Methods for Element Selection: The Document object provides methods like getElementById(), getElementsByClassName(), and querySelector() to select specific elements within the document.
